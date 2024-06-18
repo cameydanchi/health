@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#logo{
+   height: 100px;
+   width: 100px;
+   display: flex;
+   justify-content: space-between;
+
+}
+#nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#butt {
+    padding: 10px 10px;
+    background-color: rgb(212, 223, 223);
+    border-radius:6px;
+    border: 1px solid;
+
+}
+#butt a {
+    text-decoration: none;
+    color: black;
+}
+#butt:hover{
+    background-color: aqua;
+}
+
+
+/* HERO         */
+
+#hero{
+    background-image: url('../assets/images/1.jpg');
+    background-size: cover;
+    height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay{
+/* justify-content: center;
+text-align: center; */
+padding-top: 20%;
+margin-left: 60px;
+}
+.hero-overlay h1{
+    color: rgb(234, 91, 91);
+    font-size:80px;
+    font-family: 'Montserrat'; 
+}
+.hero-overlay p{
+    color: #090909;
+    margin-bottom: 41px;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#butn{
+    background: #f7fce4;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    color: #fff ;
+    cursor: pointer;
+    font-size: 16px ;
+    font-weight: 400 ;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#butn a{
+    text-decoration: none;
+    color: #090909;
+}
+
+/* second container  */
+
+#first-content{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(205, 230, 253);
+
+}
+.inner-1{
+    margin-left: 90px;
+}
+.inner-1 img{
+    margin-top: 70px;
+    width: 600px;
+    height:90vh;
+    border-top-left-radius:80px;
+}
+
+.inner-2 {
+    display: block;
+    text-align: center;
+    padding-top: 300px;
+    margin-left: 30px;
+}
+.inner-2 h1{
+    color: #2D0000;
+    font-size: 46px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 30px
+}
+.inner-2 p {
+        font-size: 18px;
+        color: #6B5A5A;
+        font-weight: 300;
+        line-height: 1.8;
+        margin-bottom: 40px;
+}
