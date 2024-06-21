@@ -31,7 +31,7 @@ body {
 
 #nav-links a {
     text-decoration: none;
-    color: rgb(255, 237, 237);
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 22px;
 }
@@ -58,7 +58,7 @@ body {
 /* HERO         */
 
 #hero {
-    background-image: url('../assets/images/pexels-rdne-6129681.jpg');
+    background-image: url('../assets/images/pexels-vidalbalielojrfotografia-4006979.jpg');
     background-size: cover;
     height: 90vh;
     background-position: center;
@@ -70,21 +70,20 @@ body {
 .hero-overlay {
     /* justify-content: center;
 text-align: center; */
-    padding-top: 15%;
+    padding-top: 20%;
     margin-left: 60px;
 }
 
 .hero-overlay h1 {
-    color: rgb(255, 250, 250);
-    font-size:90px;
+    color: rgb(220, 220, 220);
+    font-size: 80px;
     font-family: 'Montserrat';
- 
 }
 
 .hero-overlay p {
-    color: #d34040;
+    color: #a7e7eb;
     margin-bottom: 41px;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 1.5;
     width: 800px;
