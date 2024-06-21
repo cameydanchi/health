@@ -1,7 +1,7 @@
 .swiper {
     width: 50vw;
     height: 50vh;
-   margin-right: 0px;
+   /* margin-right: 0px; */
   }
 
   .swiper-slide {
@@ -27,15 +27,21 @@
     font-family: 'roboto';
     margin-top: 40px;
     margin-bottom: 35px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .swiper-slide p{
     line-height: 1.6;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 29px;
   }
   .swiper-slide img{
     height: 30px;
     width: 30px;
+  }
+
+  .swiper-button-prev , .swiper-button-next{
+    color: rgba(0, 0, 0, 0);
+    height:0.5px;
+    width: 2px;
   }
